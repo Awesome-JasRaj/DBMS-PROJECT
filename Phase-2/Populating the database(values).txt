@@ -1,0 +1,18 @@
+INSERT INTO ROUTE (ID, ORIGIN, DESTINATION) VALUES (1, "DELHI" , "MANALI"), (2, "BANGALORE", "HYDERABAD") , (3, "BANGALORE","CHENNAI") , (4, "DELHI" , "DEHRADUN" ) , (5, "PUNE" , "MUMBAI") , (6, "MUMBAI" , "SHRIDI") , (7,"HYDERABAD" , "GOA") , (8, "DELHI" , "CHANDIGARH") , (9 , "BANGALORE" , "MUMBAI") ,
+(10, "BANGALORE" , "COORG"), (11, "DELHI" , "JAIPUR") , (12, "DELHI" , "LUCKNOW") , (13,"GOA" , "HYDERABAD") , (14, "DELHI" , "SHIMLA") , (15, "PUNE" , "SHRIDI") , (16, "COORG" , "BANGALORE") , (17 , "JAIPUR" , "DELHI") , (18 , "MUMBAI" , "PUNE") , (19 , "MANALI" , "DELHI") , (20 , "SHRIDI" , "MUMBAI");
+
+
+
+INSERT INTO BUS (ID, AC ,FARE, DEPARTURE_TIME ,ROUTE_ID , ARRIVAL_TIME) VALUES (1 , 1 , 50, "1:42PM" , 1 , "2:51PM"),  (2 , 1 ,75, "9AM" , 2 , "3PM"), (3 , 0 , 24, "11AM" , 3 , "2:51PM"), (4 , 1 , 90, "1:42PM" , 4 , "2PM"), (5 , 1 , 60, "1PM" , 5 , "5PM"), (6 , 0 , 26, "4PM" , 6 , "6:51PM"), (7 , 1 , 66, "9PM" , 7 , "11PM"), (8 , 1 , 46, "6PM" , 8 , "8PM"), (9 , 1 , 50, "7AM" , 9 , "9AM"), (10 , 0 , 15, "1:42PM" , 10 , "3:42PM");
+
+
+
+INSERT INTO PASSENGER (ID , USERNAME , PASSWORD , EMAIL , MOBILE, NAME) VALUES (1, "MAVERICK" , "DASDSAD" , "asdasda@gmail.com" , 9786364210, "RAHUL"), (2, "Masda3" , "Dasdsa" , "zcca@gmail.com" , 9884564210, "SHUBHAM"), (3, "qweqw12e" , "werewf" , "qweqwe@gmail.com" , 9786365487, "NAMAN"), (4, "sad78" , "zxzxz" , "asdzasdsaa@gmail.com" , 9784564320, "AKASH"), (5, "Mgjhg1" , "ertert" , "ewrew@gmail.com" , 9786674932, "KESHAV"), (6, "xczx12" , "qweq" , "ewfsdvzx@gmail.com" , 8786364210, "AYUSH"), (7, "zcxxzc89" , "cvbcvb" , "cvbbc@gmail.com" , 8896364212, "ANIRUDH"), (8, "ghnght21" , "ukuk" , "zxcsde@gmail.com" , 8830064210, "PULLEH"), (9, "wqeqwe2" , "fdbfghf" , "sdfd@gmail.com" , 8886444210, "LOV"), (10, "retert21" , "qwdq" , "jhkjk@gmail.com" , 8863412365, "AMIT");
+
+
+
+INSERT INTO RESERVE (ID , PASSENGER_ID , BUS_ID, DATE, TIMESTAMP , SEAT) VALUES (1, 1 , 1 , "2018-05-01", "2018-04-21" , "21"), (2, 2 , 2 , "2018-05-01", "2018-04-21" , "21"), (3,  3, 3 , "2018-06-01", "2018-04-05" , "51"), (4, 4 , 5 , "2018-11-01", "2018-08-21" , "21"), (5, 5 , 4 , "2018-12-01", "2018-04-21" , "11"), (6, 6 , 6 , "2018-12-01", "2018-11-21" , "05"), (7, 7 , 7 , "2018-06-02", "2018-04-01" , "06"), (8, 8 , 8 , "2018-11-01", "2018-04-21" , "23"), (9, 9 , 9 , "2018-12-01", "2018-07-21" , "17"), (10, 10 , 10 , "2018-09-01", "2018-04-05" , "19");
+
+
+
+INSERT INTO ADMIN (ID, USERNAME, PASSWORD) VALUES (1, "Jasraj747" , "12345") , (2, "Keshav_agr" , "54321");
