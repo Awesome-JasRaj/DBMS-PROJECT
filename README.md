@@ -1,2 +1,4 @@
-# DBMS-PROJECT
-Unsigned Files contain the original documents while Signed files are the scanned copies after getting the signature.
+# BUS RESERVATION SYSTEM
+# JASRAJ ANAND - PES1201700171
+# AKASH MUKHOPADHYAY - PES1201700133
+# KESHAV AGARWAL - PES1201700289
